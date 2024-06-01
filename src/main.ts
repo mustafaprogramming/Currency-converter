@@ -2,10 +2,9 @@
 import inquirer from "inquirer";
 import chalk from 'chalk';
 
-console.log(chalk.whiteBright.bold(`\n<<<==========================================================================>>>`));
-console.log(chalk.blueBright.bold(`\n\t\tWelcome To Mustafa - Currency Converter\t\t`));
-console.log(chalk.whiteBright.bold(`<<<==========================================================================>>>\n`));
-
+console.log(chalk.blue(`\n\n\t     _-^+-^+‾      ◦◦◦◦◦◦          ◦◦◦ ◎ ◉ ◯ ◉ ◎ ◦◦◦          ◦◦◦◦◦◦     ‾+^-+^-_`));
+console.log(chalk.blue(`\t  <==!~~ ☆*: .｡. o(≧ ${chalk.greenBright.bold(` Welcome To Mustafa's  -  Currency Converter `)} ≦)o .｡.:*☆ ~~!==>`));
+console.log(chalk.blue(`\t     ‾-∨+-∨+_      ◦◦◦◦◦◦          ◦◦◦ ◎ ◉ ◯ ◉ ◎ ◦◦◦          ◦◦◦◦◦◦     _+∨-+∨-‾\n\n`));
 const exchange_rates:{[key:string]:number}={
     "EUR": 0.94,
     "CAD":1.37,
